@@ -30,7 +30,7 @@ export function Testimonials() {
             >
               <Quote className="h-5 w-5 text-[#2de29d]" />
               <blockquote className="mt-4 text-base leading-7 text-[#3b3a50]/75">
-                "{t.quote}"
+                &ldquo;{t.quote}&rdquo;
               </blockquote>
               <figcaption className="mt-6 flex items-center gap-3">
                 <Avatar className="h-9 w-9 border border-[#3b3a50]/10">

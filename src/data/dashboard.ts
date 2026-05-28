@@ -4,10 +4,10 @@ import {
   Bot,
   BrainCircuit,
   CreditCard,
-  Gauge,
+ 
   GitBranch,
   Globe2,
-  KeyRound,
+ 
   LayoutDashboard,
   LockKeyhole,
   Radar,

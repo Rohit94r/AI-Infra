@@ -70,7 +70,7 @@ export function ScanPage() {
         <div className="space-y-2.5 p-5 font-mono text-sm">
           <p className="text-white/40">$ explainmycode scan --production-readiness --graph --security</p>
 
-          {scanSteps.slice(0, visible).map((step, i) => (
+          {scanSteps.slice(0, visible).map((step) => (
             <motion.div
               key={step.label}
               initial={{ opacity: 0, x: -8 }}
@@ -124,7 +124,10 @@ export function ScanPage() {
           )}
 
           {visible === 0 && !running && (
-            <p className="text-white/30">Press "Run scan" to start analysis<span className="animate-cursor">_</span></p>
+            <p className="text-white/30">
+  Press &quot;Run scan&quot; to start analysis
+  <span className="animate-cursor">_</span>
+</p>
           )}
         </div>
       </div>
